@@ -2,7 +2,7 @@
 require "fileutils"
 
 APP_ROOT = File.expand_path("..", __dir__)
-APP_NAME = "tweetly2"
+APP_NAME = "sample-app"
 
 def system!(*args)
   system(*args, exception: true)
